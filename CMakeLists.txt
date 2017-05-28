@@ -5,7 +5,7 @@ set(VERSION "0.1")
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release")
-enable_testing()
+# enable_testing()
 
 include_directories(include src contrib/epee/include external "${CMAKE_BINARY_DIR}/version")
 if(APPLE)
@@ -124,4 +124,4 @@ endif()
 
 add_subdirectory(external)
 add_subdirectory(src)
-add_subdirectory(tests)
+# add_subdirectory(tests)
